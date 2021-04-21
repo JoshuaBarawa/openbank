@@ -1,0 +1,46 @@
+.form-group{
+width: 30%;
+}
+
+.errors{
+color: red;
+}
+
+.msg{
+color: green;
+}
+
+.lock-links{
+background: none;
+border: none;
+color: blue;
+}
+
+.unlock-links{
+background: none;
+border: none;
+color: red;
+}
+
+.lock-links:hover{
+text-decoration: underline;
+}
+
+.unlock-links:hover{
+text-decoration: underline;
+}
+
+
+@media screen and (max-width:500px){
+.container{
+width:100%;
+}
+
+.table{
+width:100%;
+
+}
+
+.value{
+width:70%;
+}

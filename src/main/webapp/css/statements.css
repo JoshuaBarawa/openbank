@@ -1,0 +1,30 @@
+
+.form-group{
+width: 30%;
+}
+
+.table-links{
+	background: none;
+	color:red;
+	border: none;
+}
+.table-links:hover{
+	text-decoration: underline;
+}
+
+@media screen and (max-width:700px){
+.container{
+width:100%;
+}
+
+
+.table{
+width:50%;
+}
+
+tr{
+width:50%;
+}
+
+
+}

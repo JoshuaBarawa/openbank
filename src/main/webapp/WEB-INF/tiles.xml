@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+   
+     
+<tiles-definitions>  
+
+ <definition name="app.default" 
+        template="/WEB-INF/default-tile/default.jsp"> 
+        <put-attribute name="title" value="TechBite Bank" />   
+    </definition>  
+
+    <definition name="app.home" 
+       extends="app.default"> 
+        <put-attribute name="content" value="/WEB-INF/jsps/home.jsp" />  
+    </definition>  
+    
+  
+   <definition name="app.signup" 
+       extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/jsps/signup.jsp" />  
+    </definition>
+    
+    <definition name="app.login" 
+       extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/jsps/login.jsp" />  
+    </definition>
+    
+    
+    <definition name="app.deposit" 
+       extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/jsps/deposit.jsp" />  
+    </definition>
+    
+     <definition name="app.withdraw" 
+       extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/jsps/withdraw.jsp" />  
+    </definition>
+    
+     <definition name="app.transfer" 
+       extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/jsps/transfer.jsp" />  
+    </definition>
+    
+    
+     <definition name="app.profile" 
+       extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/jsps/profile.jsp" />  
+    </definition>
+    
+     <definition name="app.statements" 
+       extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/jsps/statements.jsp" />  
+    </definition>
+    
+      <definition name="app.users" 
+       extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/jsps/users.jsp" />  
+    </definition>
+ 
+  <definition name="app.resetpassword" 
+       extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/jsps/resetpassword.jsp" />  
+    </definition>
+ 
+ 
+</tiles-definitions> 

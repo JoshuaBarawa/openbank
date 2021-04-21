@@ -1,0 +1,30 @@
+
+.navbar{
+background: linear-gradient(120deg, #2980b9, #8e44ad);
+border: none;
+}
+
+.navbar > .container > div > .navbar-brand{
+	background-color: none;
+	color:aqua;
+	font-weight: bold;
+}
+
+.navbar > .container > div > .nav > li > a{
+	background-color: none;
+	color:white;
+	font-weight: bold;
+}
+
+.navbar > .container > div > .nav > li > a:hover{
+	background-color: none;
+	color:navy;
+	font-weight: bold;
+}
+
+.dropdown-toggle:hover{
+	background-color: none;
+}
+
+
+

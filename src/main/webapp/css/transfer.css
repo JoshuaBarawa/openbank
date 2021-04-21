@@ -1,0 +1,38 @@
+.form-group{
+width: 100%;
+}
+
+.msg{
+color: green;
+}
+
+.error{
+color: red;
+}
+
+.center{
+	background-color: white;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width:450px;
+	border-radius: 10px;
+}
+.registerbtn{
+border-radius: 25px;
+background: #2691d9;
+font-size: 18px;
+border-color: #2691d9;
+}
+
+@media screen and (max-width:800px){
+.center{
+width:80%;
+top: 30%;
+}
+
+.form-group{
+width:50%;
+}
+
